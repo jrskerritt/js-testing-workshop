@@ -8,7 +8,8 @@ module.exports = {
         'test.01': 'mocha!./01-basics/queue.test.js',
         'test.02': 'mocha!./02-spies-and-stubs/streamController.test.js',
         'test.03': 'mocha!./03-react/index.test.js',
-        'test.04': 'mocha!./04-di/playerApp.test.js'
+        'test.04': 'mocha!./04-di/playerApp.test.js',
+        'test.05': 'mocha!./05-best-practices/playerApp.test.js'
     },
     output: {
         filename: '[name].js',
