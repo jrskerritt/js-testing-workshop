@@ -1,0 +1,85 @@
+body {
+    color: #606060;
+    background-color: #282828;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #97bfbf;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        color: #577f7f;
+        text-decoration: none;
+    }
+}
+
+button {
+    color: #ccc;
+    background-color: #555;
+    border: 1px solid #666;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 7px 15px;
+
+    &:hover {
+        background-color: #666;
+        cursor: pointer;
+    }
+
+    &[disabled] {
+        background-color: #282828;
+        border: 1px solid #3b3b3b;
+        color: #555;
+        cursor: not-allowed;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.subtitle {
+    font-size: 22px;
+}
+
+.chapters {
+    margin: 0 auto;
+    padding: 25px;
+    width: 470px;
+
+    ol {
+        margin: 20px auto;
+        width: 250px;
+
+        li {
+            padding: 4px 0;
+        }
+    }
+}
+
+.links {
+    margin: 80px auto 20px;
+    text-align: center;
+    width: 215px;
+}
+
+.playerApp {
+    padding: 0 50px;
+}
+
+.trackLabel {
+    display: inline-block;
+    padding: 10px;
+}
