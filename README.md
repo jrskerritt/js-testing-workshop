@@ -10,4 +10,4 @@ A set of exercises for teaching how to test JavaScript and React with Mocha
 1. Run `npm install`
 1. Run `npm run dev`
 1. Open another terminal/cmd and run `npm run devtest`
-1. Go to `http://localhost:8191/` in your browser
+1. Go to `http://localhost:8291/` in your browser
