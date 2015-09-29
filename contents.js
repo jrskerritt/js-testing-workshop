@@ -2,7 +2,7 @@ let React = require('react');
 let {Link} = require('react-router');
 
 const displayName = 'Contents';
-const testServer = 'http://localhost:8192/webpack-dev-server';
+const testServer = 'http://localhost:8292/webpack-dev-server';
 
 class Contents extends React.Component {
     constructor(props) {

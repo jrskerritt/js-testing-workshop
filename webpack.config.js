@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-var port = 8190;
+var port = 8290;
 
 module.exports = {
     entry: {app: './index.js'},

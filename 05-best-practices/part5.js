@@ -15,7 +15,7 @@ class Part5 extends React.Component {
             <div className="links">
                 <p>
                     <a
-                        href="http://localhost:8192/webpack-dev-server/05-best-practices/test.html"
+                        href="http://localhost:8292/webpack-dev-server/05-best-practices/test.html"
                         target="_blank"
                     >
                         Go to the Mocha test runner

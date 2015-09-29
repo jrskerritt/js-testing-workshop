@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 var RewirePlugin = require('rewire-webpack');
 
-var port = 8192;
+var port = 8292;
 
 module.exports = {
     entry: {

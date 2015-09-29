@@ -12,7 +12,7 @@ class Part6 extends React.Component {
         return <div className="links">
             <p>
                 <a
-                    href="http://localhost:8192/webpack-dev-server/06-webpack/test.html"
+                    href="http://localhost:8292/webpack-dev-server/06-webpack/test.html"
                     target="_blank"
                 >
                     Go to the Mocha test runner

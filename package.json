@@ -19,7 +19,7 @@
     "null-loader": "^0.1.1",
     "react": "^0.13.3",
     "react-hot-loader": "^1.2.7",
-    "react-router": "^1.0.0-beta3",
+    "react-router": "1.0.0-beta3",
     "rewire": "^2.3.3",
     "rewire-webpack": "^1.0.0",
     "style-loader": "^0.12.3",
@@ -27,7 +27,7 @@
     "webpack-dev-server": "^1.9.0"
   },
   "optionalDependencies": {
-    "jsdom": "3.1.2"
+    "jsdom-no-contextify": "3.1.2"
   },
   "scripts": {
     "webpack": "webpack --optimize-minimize --optimize-dedupe",
