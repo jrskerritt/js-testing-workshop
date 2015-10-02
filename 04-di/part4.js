@@ -1,6 +1,7 @@
 let React = require('react');
 let {Link} = require('react-router');
 let PlayerApp = require('./playerApp');
+let DocLinks = require('../docLinks');
 
 const displayName = 'Part4';
 
@@ -10,8 +11,9 @@ class Part4 extends React.Component {
     }
 
     render() {
-        return <div>
+        return <div className="chapterContainer">
             <PlayerApp />
+            <DocLinks />
             <div className="links">
                 <p>
                     <a

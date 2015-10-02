@@ -1,5 +1,6 @@
 let React = require('react');
 let {Link} = require('react-router');
+let DocLinks = require('./docLinks');
 
 const displayName = 'Contents';
 const testServer = 'http://localhost:8292/webpack-dev-server';
@@ -30,6 +31,7 @@ class Contents extends React.Component {
                     <li><Link to="05">General testing best practices</Link></li>
                     <li><Link to="06">How this demo works: Webpack</Link></li>
                 </ol>
+                <DocLinks />
             </div>
         </div>;
     }
