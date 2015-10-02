@@ -5,11 +5,11 @@ var port = 8292;
 
 module.exports = {
     entry: {
-        'test.01': 'mocha!./01-basics/queue.test.js',
-        'test.02': 'mocha!./02-spies-and-stubs/streamController.test.js',
+        'test.01': 'mocha!./01-basics/index.test.js',
+        'test.02': 'mocha!./02-spies-and-stubs/index.test.js',
         'test.03': 'mocha!./03-react/index.test.js',
-        'test.04': 'mocha!./04-di/playerApp.test.js',
-        'test.05': 'mocha!./05-best-practices/playerApp.test.js'
+        'test.04': 'mocha!./04-di/index.test.js',
+        'test.05': 'mocha!./05-best-practices/index.test.js'
     },
     output: {
         filename: '[name].js',

@@ -11,7 +11,7 @@ class Queue {
         }
 
         if (tracks instanceof Array) {
-            tracks.each(track => {
+            tracks.forEach(track => {
                 if (track instanceof Track) {
                     this.tracks.push(track)
                 }
@@ -28,11 +28,15 @@ class Queue {
             return;
         }
 
-        this.tracks.each(t => {
+        this.tracks.forEach(t => {
             if (track == t) {
                 this.tracks.splice(0, 1);
             }
         });
+    }
+
+    clear() {
+        this.tracks = [];
     }
 }
 

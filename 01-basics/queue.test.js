@@ -1,13 +1,1 @@
-require('../lib/globals');
-
-let Queue = require('./queue');
-
-// Let's test the add and remove methods of Queue
-
-/*
-    * describe
-    * it
-    * assert/expect
-    * beforeEach/afterEach
-    * disabling tests (set them as pending)
-*/
+// See /lib/globals.js to see what's automatically included in our test files
