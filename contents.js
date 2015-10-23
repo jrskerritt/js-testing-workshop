@@ -15,6 +15,11 @@ class Contents extends React.Component {
             <div className="chapters">
                 <div className="title">Testing JavaScript and React</div>
                 <div className="subtitle"><i>with Mocha</i></div>
+                <div className="images">
+                    <img src="images/js-logo.png" alt="javascript" />
+                    <img src="images/react-logo.svg" alt="react" />
+                    <img src="images/coffee.jpg" alt="coffee" />
+                </div>
                 <ol>
                     <li>
                         <a href={`${testServer}/01-basics/test.html`} target="_blank">
