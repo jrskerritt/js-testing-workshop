@@ -26,7 +26,7 @@ class StreamController {
             return;
         }
 
-        stopStream(this.stream);
+        this.stream.stop();
     }
 
     play() {

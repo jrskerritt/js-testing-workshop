@@ -22,13 +22,13 @@ class Player extends React.Component {
     }
 
     _renderPlayButton() {
-        return <button onClick={() => this._handlePlayClick()}>
+        return <button className="playButton" onClick={() => this._handlePlayClick()}>
             Play
         </button>;
     }
 
     _renderPauseButton() {
-        return <button onClick={() => this._handlePauseClick()}>
+        return <button className="pauseButton" onClick={() => this._handlePauseClick()}>
             Pause
         </button>;
     }

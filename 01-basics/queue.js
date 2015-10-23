@@ -17,8 +17,8 @@ class Queue {
                 }
             });
         } else {
-            if (track instanceof Track) {
-                this.tracks.push(track)
+            if (tracks instanceof Track) {
+                this.tracks.push(tracks)
             }
         }
     }
